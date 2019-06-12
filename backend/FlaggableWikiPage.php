@@ -483,6 +483,11 @@ class FlaggableWikiPage extends WikiPage {
 		);
 		# Update pending edit tracking table
 		self::updatePendingList( $this->getId(), $latest );
+
+		# oncampus Loop custom Hook.
+		Hooks::run( 'AfterStabilizeChange',array($this->mTitle, $rev->getContent()));
+		# /oncampus
+		
 		return true;
 	}
 
@@ -499,6 +504,10 @@ class FlaggableWikiPage extends WikiPage {
 			[ 'fp_page_id' => $this->getId() ], __METHOD__ );
 		$dbw->delete( 'flaggedpage_pending',
 			[ 'fpp_page_id' => $this->getId() ], __METHOD__ );
+			
+		# oncampus Loop custom Hook.
+		Hooks::run( 'AfterClearStable',array($this->mTitle));
+		# /oncampus
 	}
 
 	/**
