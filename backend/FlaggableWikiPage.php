@@ -485,7 +485,7 @@ class FlaggableWikiPage extends WikiPage {
 		self::updatePendingList( $this->getId(), $latest );
 
 		# oncampus Loop custom Hook.
-		Hooks::run( 'AfterStabilizeChange',array($this->mTitle, $rev->getContent()));
+		Hooks::run( 'AfterStabilizeChange',array($this->mTitle, $rev->getContent(), $srev->getUser()));
 		# /oncampus
 		
 		return true;
