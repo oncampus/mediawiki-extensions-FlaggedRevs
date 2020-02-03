@@ -502,6 +502,10 @@ class FlaggableWikiPage extends WikiPage {
 		);
 		# Update pending edit tracking table
 		self::updatePendingList( $this->getId(), $latest );
+		# THL LOOP custom Hook.
+		# @author Dennis Krohn krohnden
+		Hooks::run( 'AfterStabilizeChange', array( $this->mTitle, $rev->getContent(), $srev->getUser() ) );
+		# /THL LOOP
 		return true;
 	}
 
@@ -515,6 +519,10 @@ class FlaggableWikiPage extends WikiPage {
 		$dbw = wfGetDB( DB_MASTER );
 		$dbw->delete( 'flaggedpages', [ 'fp_page_id' => $this->getId() ], __METHOD__ );
 		$dbw->delete( 'flaggedpage_pending', [ 'fpp_page_id' => $this->getId() ], __METHOD__ );
+		# THL LOOP custom Hook.
+		# @author Dennis Krohn krohnden
+		Hooks::run( 'AfterClearStable', array( $this->mTitle ) );
+		# /THL LOOP
 	}
 
 	/**
