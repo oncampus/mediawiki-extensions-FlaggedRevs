@@ -5,8 +5,10 @@
 			"Mehtab ahmed"
 		]
 	},
+	"flaggedrevs-hidereviewed-show": "ڏيکاريو",
 	"flaggedrevs-rcfilters-need-review-desc": "نظرثاني گھرندڙ سنوارون.",
-	"review-logentry-diff": "جائزو ورتل تبديليون",
+	"flaggedrevs-rcfilters-reviewed-desc": "اھي سنوارون جن تي نظرثاني ڪئي وئي آھي.",
+	"review-logentry-diff": "نظرثاني-ڪيل بدلاءَ",
 	"revreview-current": "لٽڪيل تبديليون",
 	"revreview-submitedit": "تبديليون اماڻيو",
 	"revreview-filter-all": "سڀ",

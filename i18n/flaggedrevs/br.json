@@ -4,11 +4,12 @@
 			"Fohanno",
 			"Fulup",
 			"Gwendal",
-			"Y-M D"
+			"Y-M D",
+			"Huñvreüs"
 		]
 	},
 	"action-review": "Adwelet an adweladennoù",
-	"action-unreviewedpages": "Gwelet roll ar pajennoù n'int ket bet adwelet",
+	"action-unreviewedpages": "gwelet roll ar pajennoù n'int ket bet adwelet",
 	"editor": "Skridaozer",
 	"flaggedrevs": "Adweladennoù merket",
 	"flaggedrevs-watched-pending": "Er mare-mañ ez eus [{{fullurl:{{#Special:OldReviewedPages}}|watched=1}} kemmoù o c'hortoz] evit pajennoù adlennet en ho roll evezhiañ. '''Bezit war evezh !'''",
@@ -172,6 +173,7 @@
 	"revreview-unlocked-title": "Ne rank ket bezañ adlennet kemmoù ar bajenn-mañ.",
 	"revreview-locked": "'''Notenn :''' Rankout a ra bezañ [[{{MediaWiki:Validationpage}}|adlennet]] ar c'hemmoù a-raok bezañ embannet er bajenn-mañ.",
 	"revreview-unlocked": "'''Notenn :''' Ne rank ket bezañ [[{{MediaWiki:Validationpage}}|adlennet]] ar c'hemmoù a-raok bezañ embannet er bajenn-mañ.",
+	"logeventslist-review-log": "Marilh an adweladennoù",
 	"validationpage": "{{ns:help}}:Kadarnaat ar bajenn",
 	"log-action-filter-stable-modify": "Kefluniadur kemmet"
 }

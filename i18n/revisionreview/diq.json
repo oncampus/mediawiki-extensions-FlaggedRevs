@@ -7,7 +7,8 @@
 			"Kumkumuk",
 			"Mirzali",
 			"Orbot707",
-			"Xoser"
+			"Xoser",
+			"1917 Ekim Devrimi"
 		]
 	},
 	"revisionreview": "revizyonanê ser çım bıçarn",
@@ -39,7 +40,7 @@
 	"revreview-reflag": "Enê çımraviyarnayışi qontrol ke",
 	"revreview-invalid": "'''hedefo nemeqbul:''' yew revizyono [[{{MediaWiki:Validationpage}}|konrol biyaye]] zi ID de pê nêgıneni.",
 	"revreview-log": "Mışewre:",
-	"revreview-main": "qey çım ser çarnayişi, şıma gani pelê muhtewayi ra yew revizyon bıvıcini.\n\nbıewnê [[Special:Unreviewedpages|listeya pelê konrol nêbiyayeyan]].",
+	"revreview-main": "Seba etudkerdene ra şıma gani yew çımraviyarnayışê pela zerrekiyê kıfşkerdeyi weçinê.\n\n[[Special:Unreviewedpages|Lista pelanê kontrolnêbiyayeyan]] bıvênên.",
 	"revreview-stable1": "[{{fullurl:$1|stableid=$2}} Ena versiyanê nişan biye] bivini, ena pele [{{fullurl:$1|stable=1}} versiyonşê sebiti] eka este ya zi cino bivini.",
 	"revreview-stable2": "Ena pele de [{{fullurl:$1|stable=1}} versiyonê sebiti] (eka este) ti eşkena bivini.",
 	"revreview-submit": "Bırışe",
@@ -60,7 +61,7 @@
 	"revreview-adv-start-link": "ilan bıke",
 	"revreview-adv-stop-link": "ilan meke",
 	"revreview-toolow": "'''Ti gani her nitelikan \"tam niya\" zafyer rate bike ke seba revizyon gani qontrol bibo.'''\n\nSeba weziyetê qontroli wedarnayişi, sazanê \"{{int:revreview-submit-unreview}}\" her ca de \"tam niya\" bike.\n\nMa rica keni \"peyser\" şı ra rayna cerbnayışi pıploxnê.",
-	"revreview-update": "'''Kerem ke, vurnayışanê teberi pêro ''(cêr mocniyenê)'' [[{{MediaWiki:Validationpage}}|tekrar bıvêne]] heta ke verziyono qayım vıraciya.'''",
+	"revreview-update": "'''Kerem ke, vurnayışanê teberi pêro ''(cêr mocniyenê)'' [[{{MediaWiki:Validationpage}}|ancina bıvêne]] heta ke verziyono qayım vıraciya.'''",
 	"revreview-update-edited": "<span class=\"flaggedrevs_important\">Vurnayişê şıma zerrê versiyonê sebiti de niya.</span>\n\nMa rica keni vurnayişanê xo peran versiyonê sebit biki bade kontrolê vurnayişi.\nTi belki tewr verni de vurnayişan teqib biki ya na \"peyser bêri\".",
 	"revreview-update-edited-prev": "<span class=\"flaggedrevs_important\">Vurnayişê şıma zerrê versiyonê sebiti de niya.</span>\n\nMa rica keni vurnayişanê xo peran versiyonê sebit biki bade kontrolê vurnayişi.\nTi belki tewr verni de vurnayişan teqib biki ya na \"peyser bêri\".",
 	"revreview-update-includes": "Şabloni/dosyey biy rocaney (pelê etudkerdey qalındê):",

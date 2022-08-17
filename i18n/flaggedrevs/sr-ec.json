@@ -15,7 +15,8 @@
 			"Vlad5250",
 			"Жељко Тодоровић",
 			"Михајло Анђелковић",
-			"Сербијана"
+			"Сербијана",
+			"Kizule"
 		]
 	},
 	"action-review": "проверавате измене",
@@ -149,7 +150,7 @@
 	"revreview-visibility-outdated": "'''Ова страница има застарелу [[{{MediaWiki:Validationpage}}|стабилну измену]]; можете [{{fullurl:{{#Special:Stabilization}}|page={{FULLPAGENAMEE}}}} променити] подешавања стабилности страница.'''",
 	"revreview-visibility-nostable": "'''Ова страница нема [[{{MediaWiki:Validationpage}}|стабилну измену]]; можете [{{fullurl:{{#Special:Stabilization}}|page={{FULLPAGENAMEE}}}} променити] подешавања стабилности страница.'''",
 	"revreview-revnotfound": "Не могу да пронађем старију измену странице.\nПроверите исправност URL адресе која Вас је довела до ове странице.",
-	"right-autoreview": "аутоматско означавање властитих измена „провереним“",
+	"right-autoreview": "аутоматско означавање властитих измена као проверене",
 	"right-autoreviewrestore": "аутоматски проверено при враћању",
 	"right-movestable": "премештање страница са стабилним изменама",
 	"right-review": "означавање измена као „проверене”",
@@ -200,11 +201,11 @@
 	"revreview-unlocked": "'''Напомена:''' измене не морају бити [[{{MediaWiki:Validationpage}}|проверене]] пре него што буду приказане читаоцима.",
 	"logeventslist-review-log": "Дневник прегледа",
 	"validationpage": "{{ns:help}}:Провера странице",
-	"log-action-filter-review": "Тип провере:",
+	"log-action-filter-review": "Врста провере:",
 	"log-action-filter-review-accept": "Ручно прихватање",
 	"log-action-filter-review-autoaccept": "Аутоматско прихватање",
 	"log-action-filter-review-unaccept": "Ручно одбијање",
-	"log-action-filter-stable": "Тип промене конфигурације:",
+	"log-action-filter-stable": "Врста промене подешавања:",
 	"log-action-filter-stable-config": "Нова конфигурација",
 	"log-action-filter-stable-modify": "Измењена конфигурација",
 	"log-action-filter-stable-reset": "Ресетовање конфигурације",

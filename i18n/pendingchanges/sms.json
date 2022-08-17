@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Yupik"
+		]
+	},
+	"pendingchanges-hours": "($1 {{PLURAL:$1|čiâss|čiâss|čiâssâd}})",
+	"pendingchanges-days": "($1 {{PLURAL:$1|peiʹvv|peeiʹv|peiʹvved}})",
+	"pendingchanges-category": "Kategoria:"
+}

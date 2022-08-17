@@ -3,16 +3,18 @@
 		"authors": [
 			"Artsiom91",
 			"Хомелка",
-			"Чаховіч Уладзіслаў"
+			"Чаховіч Уладзіслаў",
+			"ZlyiLev",
+			"No Sleep till Krupki"
 		]
 	},
-	"unreviewedpages": "Неправераныя старонкі",
+	"unreviewedpages": "Недагледжаныя старонкі",
 	"unreviewedpages-legend": "Пералік неправераных старонак",
 	"unreviewedpages-category": "Катэгорыя:",
 	"unreviewedpages-diff": "праверыць",
 	"unreviewedpages-unwatched": "(не сочаць)",
 	"unreviewedpages-watched": "({{PLURAL:$1|сочыць $1 актыўны ўдзельнік|сочаць $1 актыўныя ўдзельнікі|сочаць $1 актыўных удзельнікаў}})",
-	"unreviewedpages-list": "На гэтай старонцы пералічаны артыкулы, якія не былі ацэненыя на паказаны ўзровень.",
+	"unreviewedpages-list": "На гэтай старонцы пералічаны артыкулы, якія ''не'' былі [[{{MediaWiki:Validationpage}}|ацэненыя]] на паказаны ўзровень.",
 	"unreviewedpages-none": "Цяпер няма старонак, якія адпавядаюць гэтым умовам",
 	"unreviewedpages-viewing": "(правяраецца)",
 	"unreviewedpages-hours": "($1 {{PLURAL:$1|гадзіну|гадзіны|гадзін}})",
