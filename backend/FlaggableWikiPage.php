@@ -542,6 +542,12 @@ class FlaggableWikiPage extends WikiPage {
 		);
 		# Update pending edit tracking table
 		$this->updatePendingList( $this->getId(), $latest );
+		# THL LOOP custom Hook.
+		# @author Dennis Krohn krohnden
+		$hookContainer = MediaWikiServices::getInstance()->getHookContainer();
+		$hookContainer->run( 'AfterStabilizeChange', array( $this->getTitle(), $revRecord->getContent( MediaWiki\Revision\RevisionRecord::RAW ), $srev->getUser() ) );
+		# /THL LOOP
+		return true;
 	}
 
 	/**
@@ -554,6 +560,11 @@ class FlaggableWikiPage extends WikiPage {
 		$dbw = wfGetDB( DB_PRIMARY );
 		$dbw->delete( 'flaggedpages', [ 'fp_page_id' => $this->getId() ], __METHOD__ );
 		$dbw->delete( 'flaggedpage_pending', [ 'fpp_page_id' => $this->getId() ], __METHOD__ );
+		# THL LOOP custom Hook.
+		# @author Dennis Krohn krohnden
+		$hookContainer = MediaWikiServices::getInstance()->getHookContainer();
+		$hookContainer->run( 'AfterClearStable', array( $this->getTitle() ) );
+		# /THL LOOP
 	}
 
 	/**
