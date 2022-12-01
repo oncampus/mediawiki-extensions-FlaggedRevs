@@ -545,7 +545,7 @@ class FlaggableWikiPage extends WikiPage {
 		# THL LOOP custom Hook.
 		# @author Dennis Krohn krohnden
 		$hookContainer = MediaWikiServices::getInstance()->getHookContainer();
-		$hookContainer->run( 'AfterStabilizeChange', array( $this->getTitle(), $revRecord->getContent( MediaWiki\Revision\RevisionRecord::RAW ), $srev->getUser() ) );
+		$hookContainer->run( 'AfterStabilizeChange', array( $this->getTitle(), $revRecord->getContent( 'main', MediaWiki\Revision\RevisionRecord::RAW ), $revRecord->getUser() ) );
 		# /THL LOOP
 		return true;
 	}
